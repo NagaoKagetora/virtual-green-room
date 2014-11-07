@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="UserMacros">
+    <SolutionInclude>$(SolutionDir)../../include/</SolutionInclude>
+    <SolutionLibrary>$(SolutionDir)../../lib/</SolutionLibrary>
+    <SolutionBinary>$(SolutionDir)../../bin/</SolutionBinary>
+    <SolutionThirdParty>$(SolutionDir)../../3rdparty/</SolutionThirdParty>
+    <SolutionSource>$(SolutionDir)../../src/</SolutionSource>
+    <VCVersion>vc100</VCVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <BuildMacro Include="SolutionInclude">
+      <Value>$(SolutionInclude)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="SolutionLibrary">
+      <Value>$(SolutionLibrary)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="SolutionBinary">
+      <Value>$(SolutionBinary)</Value>
+    </BuildMacro>
+    <BuildMacro Include="SolutionThirdParty">
+      <Value>$(SolutionThirdParty)</Value>
+    </BuildMacro>
+    <BuildMacro Include="SolutionSource">
+      <Value>$(SolutionSource)</Value>
+    </BuildMacro>
+    <BuildMacro Include="VCVersion">
+      <Value>$(VCVersion)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

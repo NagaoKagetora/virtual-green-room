@@ -1,0 +1,606 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{4786cc3e-5e9b-426b-a9e9-0d9d70ae9266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\3rdparty">
+      <UniqueIdentifier>{d66d7545-9664-40ad-a925-d4eadcf82609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\3rdparty\vcg">
+      <UniqueIdentifier>{b4cde8cb-fe0e-4b3c-9644-5b66b88470e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\3rdparty\osg">
+      <UniqueIdentifier>{e9a43065-e046-4844-b556-507419bdf610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\algo">
+      <UniqueIdentifier>{e85bed15-92e6-4b48-acc3-60cd4fd96510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\util">
+      <UniqueIdentifier>{84d32cb9-accd-42d3-8313-8082e9635bc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{477b0bba-6869-4571-ad67-393ce28a2e25}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{513ac363-ad02-4600-b63c-9827aab3a06f}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{2a293e4a-95e9-400c-955a-19f58b0b058e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\algorithm">
+      <UniqueIdentifier>{681d971b-a1f3-4563-ac7c-590fb4f2fa88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\algorithm\colorization">
+      <UniqueIdentifier>{f1e0b4c5-8697-4c20-aa49-2317c854af6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\algorithm\registration">
+      <UniqueIdentifier>{40c8dfca-a1fa-4b16-8e81-afc567b2e1f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\algorithm\section">
+      <UniqueIdentifier>{558180ab-f998-4ed9-a848-dff49a7f19ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\basic">
+      <UniqueIdentifier>{0f6804a3-d1bf-4e65-864d-ee38348538df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\basic\sprite">
+      <UniqueIdentifier>{45fef606-ab4e-40ad-ab1f-93a71b0c216f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\section">
+      <UniqueIdentifier>{993c295a-e64f-4667-a66f-6b12d9de3643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{afcf1e15-5a54-4392-81ba-528f1eb2833e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui\module">
+      <UniqueIdentifier>{c1b3d7f5-723a-4399-ad35-1afd26bb143b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\common\global.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\common\3rdparty\vcg\export_nas.h">
+      <Filter>common\3rdparty\vcg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\common\3rdparty\vcg\import_nas.h">
+      <Filter>common\3rdparty\vcg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\common\3rdparty\3rdparty.hpp">
+      <Filter>common\3rdparty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\common\3rdparty\boost.hpp">
+      <Filter>common\3rdparty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\common\3rdparty\eigen.hpp">
+      <Filter>common\3rdparty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\common\3rdparty\vcglib.hpp">
+      <Filter>common\3rdparty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\common\algo\algo.hpp">
+      <Filter>common\algo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\common\algo\register.hpp">
+      <Filter>common\algo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\common\algo\util.hpp">
+      <Filter>common\algo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\common\util\logger.hpp">
+      <Filter>common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\common\util\util.hpp">
+      <Filter>common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\colorization\ColorizationProvider.hpp">
+      <Filter>core\algorithm\colorization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\colorization\CurvatureColorizationProvider.hpp">
+      <Filter>core\algorithm\colorization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\colorization\NComponentColorizationProvider.hpp">
+      <Filter>core\algorithm\colorization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\colorization\NDeviationColorizationProvider.hpp">
+      <Filter>core\algorithm\colorization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\colorization\ScalarColorizationProvider.hpp">
+      <Filter>core\algorithm\colorization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\colorization\XComponentColorizationProvider.hpp">
+      <Filter>core\algorithm\colorization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\colorization\YComponentColorizationProvider.hpp">
+      <Filter>core\algorithm\colorization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\colorization\ZComponentColorizationProvider.hpp">
+      <Filter>core\algorithm\colorization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\registration\CorrespondenceRegistrationProvider.hpp">
+      <Filter>core\algorithm\registration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\registration\IterativeRegistrationProvider.hpp">
+      <Filter>core\algorithm\registration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\registration\LeastSquaresRegistrationProvider.hpp">
+      <Filter>core\algorithm\registration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\registration\RegistrationProvider.hpp">
+      <Filter>core\algorithm\registration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\registration\RigidRegistrationProvider.hpp">
+      <Filter>core\algorithm\registration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\registration\ThreePointRegistrationProvider.hpp">
+      <Filter>core\algorithm\registration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\section\Curve.hpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\section\DeviationSectionProvider.hpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\section\GlobalEstimationCurvatureSectionProvider.hpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\section\GlobalEstimationSectionProvider.hpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\section\GlobalEstimationSlopeSectionProvider.hpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\section\GlobalEstimationProfileSectionProvider.hpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\section\LocalEstimationProfileSectionProvider.hpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\section\LocalEstimationSectionProvider.hpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\section\LocalEstimationSlopeSectionProvider.hpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\section\LocalEstimationCurvatureSectionProvider.hpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\section\PolynomialEstimationSectionProvider.hpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\section\SectionProvider.hpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\section\SegmentedSectionProvider.hpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\section\SimplifiedPolylineSectionProvider.hpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\algorithm\section\SplineFittingSectionProvider.hpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\basic\sprite\Compass.hpp">
+      <Filter>core\basic\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\basic\sprite\Hud.hpp">
+      <Filter>core\basic\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\basic\sprite\Rect.hpp">
+      <Filter>core\basic\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\basic\sprite\Text.hpp">
+      <Filter>core\basic\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\basic\sprite\Transform.hpp">
+      <Filter>core\basic\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\basic\Configuration.hpp">
+      <Filter>core\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\basic\Execution.hpp">
+      <Filter>core\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\basic\Function.hpp">
+      <Filter>core\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\basic\Handler.hpp">
+      <Filter>core\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\basic\Indicator.hpp">
+      <Filter>core\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\basic\Model.hpp">
+      <Filter>core\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\basic\Operation.hpp">
+      <Filter>core\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\basic\Scene.hpp">
+      <Filter>core\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\section\SectionScene.hpp">
+      <Filter>core\section</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\Colorization.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\Reflection.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\Registration.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\core\Section.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\resource\resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\common\3rdparty\osg\GraphicsWindow.cpp">
+      <Filter>common\3rdparty\osg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\common\3rdparty\vcg\plylib.cpp">
+      <Filter>common\3rdparty\vcg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\common\algo\register.cpp">
+      <Filter>common\algo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\common\algo\util.cpp">
+      <Filter>common\algo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\common\util\logger.cpp">
+      <Filter>common\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\colorization\ColorizationProvider.cpp">
+      <Filter>core\algorithm\colorization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\colorization\CurvatureColorizationProvider.cpp">
+      <Filter>core\algorithm\colorization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\colorization\NComponentColorizationProvider.cpp">
+      <Filter>core\algorithm\colorization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\colorization\NDeviationColorizationProvider.cpp">
+      <Filter>core\algorithm\colorization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\colorization\ScalarColorizationProvider.cpp">
+      <Filter>core\algorithm\colorization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\colorization\XComponentColorizationProvider.cpp">
+      <Filter>core\algorithm\colorization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\colorization\YComponentColorizationProvider.cpp">
+      <Filter>core\algorithm\colorization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\colorization\ZComponentColorizationProvider.cpp">
+      <Filter>core\algorithm\colorization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\registration\CorrespondenceRegistrationProvider.cpp">
+      <Filter>core\algorithm\registration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\registration\IterativeRegistrationProvider.cpp">
+      <Filter>core\algorithm\registration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\registration\LeastSquaresRegistrationProvider.cpp">
+      <Filter>core\algorithm\registration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\registration\RegistrationProvider.cpp">
+      <Filter>core\algorithm\registration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\registration\RigidRegistrationProvider.cpp">
+      <Filter>core\algorithm\registration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\registration\ThreePointRegistrationProvider.cpp">
+      <Filter>core\algorithm\registration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\section\Curve.cpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\section\DeviationSectionProvider.cpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\section\GlobalEstimationCurvatureSectionProvider.cpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\section\GlobalEstimationSectionProvider.cpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\section\GlobalEstimationSlopeSectionProvider.cpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\section\GlobalEstimationProfileSectionProvider.cpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\section\LocalEstimationProfileSectionProvider.cpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\section\LocalEstimationSectionProvider.cpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\section\LocalEstimationSlopeSectionProvider.cpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\section\LocalEstimationCurvatureSectionProvider.cpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\section\PolynomialEstimationSectionProvider.cpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\section\SectionProvider.cpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\section\SegmentedSectionProvider.cpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\section\SimplifiedPolylineSectionProvider.cpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\algorithm\section\SplineFittingSectionProvider.cpp">
+      <Filter>core\algorithm\section</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\basic\sprite\Compass.cpp">
+      <Filter>core\basic\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\basic\sprite\Hud.cpp">
+      <Filter>core\basic\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\basic\sprite\Rect.cpp">
+      <Filter>core\basic\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\basic\sprite\Text.cpp">
+      <Filter>core\basic\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\basic\sprite\Transform.cpp">
+      <Filter>core\basic\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\basic\Configuration.cpp">
+      <Filter>core\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\basic\Execution.cpp">
+      <Filter>core\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\basic\Function.cpp">
+      <Filter>core\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\basic\Handler.cpp">
+      <Filter>core\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\basic\Indicator.cpp">
+      <Filter>core\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\basic\Model.cpp">
+      <Filter>core\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\basic\Operation.cpp">
+      <Filter>core\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\basic\Scene.cpp">
+      <Filter>core\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\section\SectionScene.cpp">
+      <Filter>core\section</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\Colorization.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\Reflection.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\Registration.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\Section.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_GraphicsWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_GraphicsWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gui\module\QVGRColorizationModule.cpp">
+      <Filter>gui\module</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QVGRColorizationModule.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QVGRColorizationModule.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gui\module\QVGRModule.cpp">
+      <Filter>gui\module</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QVGRModule.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QVGRModule.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gui\module\QVGRReflectionModule.cpp">
+      <Filter>gui\module</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QVGRReflectionModule.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QVGRReflectionModule.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gui\module\QVGRRegistrationModule.cpp">
+      <Filter>gui\module</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QVGRRegistrationModule.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QVGRRegistrationModule.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gui\module\QVGRSectionModule.cpp">
+      <Filter>gui\module</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QVGRSectionModule.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QVGRSectionModule.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gui\QVGRConfigDialog.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QVGRConfigDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QVGRConfigDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gui\QVGRCreateProjectDialog.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QVGRCreateProjectDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QVGRCreateProjectDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gui\QVGRExplorerWidget.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QVGRExplorerWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QVGRExplorerWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gui\QVGRInfoDialog.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QVGRInfoDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QVGRInfoDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gui\QVGRLoggerWidget.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QVGRLoggerWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QVGRLoggerWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gui\QVGRMainWindow.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QVGRMainWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QVGRMainWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gui\QVGRManager.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QVGRManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QVGRManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gui\QVGRSnapshotWidget.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QVGRSnapshotWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QVGRSnapshotWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gui\QVGRViewerWidget.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QVGRViewerWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QVGRViewerWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\main.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_resource.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\src\common\3rdparty\osg\GraphicsWindow.hpp">
+      <Filter>common\3rdparty\osg</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\src\gui\module\QVGRColorizationModule.h">
+      <Filter>gui\module</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\src\gui\module\QVGRModule.h">
+      <Filter>gui\module</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\src\gui\module\QVGRReflectionModule.h">
+      <Filter>gui\module</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\src\gui\module\QVGRRegistrationModule.h">
+      <Filter>gui\module</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\src\gui\module\QVGRSectionModule.h">
+      <Filter>gui\module</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\src\gui\QVGRConfigDialog.h">
+      <Filter>gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\src\gui\QVGRCreateProjectDialog.h">
+      <Filter>gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\src\gui\QVGRExplorerWidget.h">
+      <Filter>gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\src\gui\QVGRInfoDialog.h">
+      <Filter>gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\src\gui\QVGRLoggerWidget.h">
+      <Filter>gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\src\gui\QVGRMainWindow.h">
+      <Filter>gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\src\gui\QVGRManager.h">
+      <Filter>gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\src\gui\QVGRSnapshotWidget.h">
+      <Filter>gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\src\gui\QVGRViewerWidget.h">
+      <Filter>gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\src\resource\resource.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\src\resource\resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
